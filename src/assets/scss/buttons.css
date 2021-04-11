@@ -1,0 +1,9 @@
+.calc-button{
+    display: inline-block;
+    margin: 6px 12px;
+    padding: 30px;
+    box-shadow: 1px 2px 2px 2px #e2dcdc;
+    border-radius: 50%;
+    width: 18px;
+    text-align: center;
+}
