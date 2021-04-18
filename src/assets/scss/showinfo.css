@@ -1,0 +1,24 @@
+.show-ShowInfo{
+    position: absolute;
+    width: 70%;
+    background: white;
+    height: 200px;
+    left: 10%;
+    top: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #cecece;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+.info-heading{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.dark-theme .show-ShowInfo{
+    background: black;
+    box-shadow: 2px 2px 2px 2px #131313;
+}
+.close{
+    float: right;
+}

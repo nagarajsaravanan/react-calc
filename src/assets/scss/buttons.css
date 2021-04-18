@@ -1,9 +1,20 @@
 .calc-button{
-    display: inline-block;
-    margin: 6px 12px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: 1px 2px 2px 2px #e2dcdc;
     border-radius: 50%;
     width: 18px;
     text-align: center;
+    background: linear-gradient(to right, #efefef , #ffffe6);
+    font-weight: bold;
+}
+.calc-button:active {
+    background: linear-gradient(to right, #c7c7c7 , #ffffe6);
+}
+.dark-theme .calc-button{
+    color: white;
+    background: linear-gradient(to right, #0a0a0a , #444441);
+    box-shadow: inset 4px 3px 0px 0px #000000;
+}
+.dark-theme .calc-button:active {
+    background: linear-gradient(to right, #050000 , #383837);
 }
