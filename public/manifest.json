@@ -3,17 +3,17 @@
   "name": "+%/-*",
   "icons": [
     {
-      "src": "calculator.png",
+      "src": "https://smartcalc.onrender.com/calculator.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "calculator.png",
+      "src": "https://smartcalc.onrender.com/calculator.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "calculator.png",
+      "src": "https://smartcalc.onrender.com/calculator.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -21,5 +21,9 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "black",
-  "background_color": "white"
+  "background_color": "white",
+  "url": "https://smartcalc.onrender.com/",
+  "manifestUrl": "https://smartcalc.onrender.com/manifest.json",
+  "lang": "",
+  "screenshots": []
 }
